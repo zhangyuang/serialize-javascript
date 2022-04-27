@@ -4,6 +4,7 @@
   "description": "Serialize JavaScript to a superset of JSON that includes regular expressions and functions.",
   "main": "index.js",
   "module": "esm.js",
+  "types": "index.d.ts",
   "scripts": {
     "benchmark": "node -v && node test/benchmark/serialize.js",
     "test": "nyc --reporter=lcov mocha test/unit"
