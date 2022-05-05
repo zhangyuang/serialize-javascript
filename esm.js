@@ -6,8 +6,7 @@ See the accompanying LICENSE file for terms.
 
 'use strict';
 
-var randomBytes = require('randombytes');
-
+var randomBytes = require('crypto').randomBytes
 // Generate an internal UID to make the regexp pattern harder to guess.
 var UID_LENGTH          = 16;
 var UID                 = generateUID();
